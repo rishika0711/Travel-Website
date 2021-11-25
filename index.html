@@ -12,6 +12,10 @@
 <body>
 <!-- header section start -->
 <header>
+
+    <div id="menu-bar" class="fas fa-bars"  ></div>
+
+
     <a href="#" class="logo"><span>T</span>ravels</a>
     <nav class="navbar">
         <a href="#home">home</a>
@@ -29,12 +33,27 @@
 
     <form action="" class="search-bar-container">
         <input type="search" id="search-bar" placeholder="search here...">
-        <label for="search-bar"></label>
+        <label for="search-bar" class="fas fa-search"></label>
         
     </form>
 </header>
 <!-- header section end -->
     
- <script src="js/script.js"></script>   
+<!-- login form -->
+<div class="login-form-container">
+
+    <i class="fas fa-time" id="form-close"></i>
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit"  value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+</div>
+ <script src="./script.js"></script>   
 </body>
 </html>
